@@ -47,22 +47,10 @@ tools        git · docker · linux
 
 <br/>
 
-### contribution snake
+### mini boss fight
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rvk30/Rvk30/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Rvk30/Rvk30/output/github-contribution-grid-snake.svg">
-    <img alt="contribution snake" src="https://raw.githubusercontent.com/Rvk30/Rvk30/output/github-contribution-grid-snake-dark.svg" width="100%" />
-  </picture>
-</div>
-
-<br/>
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rvk30&layout=compact&theme=transparent&hide_border=true&text_color=9ca3af&title_color=f0f0f0&bg_color=00000000" alt="languages" width="360" />
-
+  <img src="./assets/contribution-boss.svg" alt="Mini Boss Fight - Real Contribution Arena" width="100%" />
 </div>
 
 <br/>

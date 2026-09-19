@@ -1,0 +1,45 @@
+name: Update Contribution Boss
+
+on:
+  schedule:
+    - cron: "0 */12 * * *" # Every 12 hours
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/update-contribution-boss.yml'
+
+jobs:
+  update-boss:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate Contribution Boss SVG
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
+        run: node scripts/generate-contribution-boss.js
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add assets/contribution-boss.svg
+          if git diff --cached --quiet; then
+            echo "No changes in contribution boss SVG. Skipping commit."
+          else
+            git commit -m "chore(matrix): sync real contribution boss fight [skip ci]"
+            git push
+          fi

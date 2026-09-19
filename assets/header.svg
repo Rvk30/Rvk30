@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 120" width="100%" height="120">
+  <style>
+    .name { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif; font-weight: 700; }
+    .role { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif; font-weight: 400; }
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace; }
+  </style>
+
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0c10"/>
+      <stop offset="100%" stop-color="#0d1017"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.15"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="840" height="120" rx="8" fill="url(#bg)" stroke="#1c2030" stroke-width="0.8"/>
+  <rect x="0" y="0" width="840" height="1.5" rx="1" fill="url(#accent)"/>
+
+  <g transform="translate(32, 28)">
+    <circle cx="4" cy="4" r="3" fill="#22c55e"/>
+    <text x="14" y="7" fill="#6b7280" font-size="10" class="mono">available</text>
+  </g>
+
+  <text x="32" y="62" fill="#f0f0f0" font-size="24" class="name">Jyotirmoy Borah</text>
+  <text x="32" y="84" fill="#6b7280" font-size="13" class="role">CS student · building things and figuring it out</text>
+  <text x="32" y="104" fill="#3b82f6" font-size="11" class="mono" opacity="0.7">github.com/Rvk30</text>
+
+  <!-- tiny pixel sprite easter egg -->
+  <g transform="translate(770, 44)" opacity="0.3">
+    <rect x="8" y="0" width="4" height="4" fill="#3b82f6"/>
+    <rect x="16" y="0" width="4" height="4" fill="#3b82f6"/>
+    <rect x="4" y="4" width="4" height="4" fill="#3b82f6"/>
+    <rect x="8" y="4" width="4" height="4" fill="#3b82f6"/>
+    <rect x="12" y="4" width="4" height="4" fill="#3b82f6"/>
+    <rect x="16" y="4" width="4" height="4" fill="#3b82f6"/>
+    <rect x="20" y="4" width="4" height="4" fill="#3b82f6"/>
+    <rect x="0" y="8" width="4" height="4" fill="#3b82f6"/>
+    <rect x="4" y="8" width="4" height="4" fill="#3b82f6"/>
+    <rect x="8" y="8" width="4" height="4" fill="#3b82f6"/>
+    <rect x="12" y="8" width="4" height="4" fill="#3b82f6"/>
+    <rect x="16" y="8" width="4" height="4" fill="#3b82f6"/>
+    <rect x="20" y="8" width="4" height="4" fill="#3b82f6"/>
+    <rect x="24" y="8" width="4" height="4" fill="#3b82f6"/>
+    <rect x="0" y="12" width="4" height="4" fill="#3b82f6"/>
+    <rect x="8" y="12" width="4" height="4" fill="#3b82f6"/>
+    <rect x="12" y="12" width="4" height="4" fill="#3b82f6"/>
+    <rect x="16" y="12" width="4" height="4" fill="#3b82f6"/>
+    <rect x="24" y="12" width="4" height="4" fill="#3b82f6"/>
+    <rect x="0" y="16" width="4" height="4" fill="#3b82f6"/>
+    <rect x="4" y="16" width="4" height="4" fill="#3b82f6"/>
+    <rect x="8" y="16" width="4" height="4" fill="#3b82f6"/>
+    <rect x="12" y="16" width="4" height="4" fill="#3b82f6"/>
+    <rect x="16" y="16" width="4" height="4" fill="#3b82f6"/>
+    <rect x="20" y="16" width="4" height="4" fill="#3b82f6"/>
+    <rect x="24" y="16" width="4" height="4" fill="#3b82f6"/>
+    <rect x="8" y="20" width="4" height="4" fill="#3b82f6"/>
+    <rect x="16" y="20" width="4" height="4" fill="#3b82f6"/>
+    <rect x="4" y="24" width="4" height="4" fill="#3b82f6"/>
+    <rect x="20" y="24" width="4" height="4" fill="#3b82f6"/>
+  </g>
+</svg>

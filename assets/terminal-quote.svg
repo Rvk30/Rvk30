@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 110" width="100%" height="110">
+  <defs>
+    <linearGradient id="quoteBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff2a00" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#8b5cf6" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#00f2fe" stop-opacity="0.8" />
+    </linearGradient>
+    <filter id="textGlow">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace; }
+  </style>
+  <rect width="900" height="110" rx="8" fill="#07090e" stroke="url(#quoteBorder)" stroke-width="1.2" />
+  
+  <!-- Left Accent Bar -->
+  <rect x="0" y="0" width="4" height="110" rx="2" fill="#ff2a00" />
+
+  <!-- Corner Brackets -->
+  <path d="M 12 25 L 12 12 L 25 12" fill="none" stroke="#ff2a00" stroke-width="2" />
+  <path d="M 888 25 L 888 12 L 875 12" fill="none" stroke="#00f2fe" stroke-width="2" />
+  <path d="M 12 85 L 12 98 L 25 98" fill="none" stroke="#ff2a00" stroke-width="2" />
+  <path d="M 888 85 L 888 98 L 875 98" fill="none" stroke="#00f2fe" stroke-width="2" />
+
+  <!-- Status indicator -->
+  <circle cx="35" cy="30" r="3.5" fill="#ff2a00" />
+  <text x="48" y="34" fill="#ff7a00" font-size="10" class="mono" font-weight="700" letter-spacing="2">TERMINAL_TRANSMISSION // ARCHITECT_LOG</text>
+
+  <!-- Quote -->
+  <text x="35" y="65" fill="#e2e8f0" font-size="14" class="mono" font-style="italic">
+    "Architecting resilient systems is not merely writing code—it is forging zero-latency digital reality."
+  </text>
+
+  <!-- Coordinates & Email -->
+  <text x="35" y="90" fill="#64748b" font-size="10" class="mono">
+    NODE: RVK30 // SECURE LINK: <tspan fill="#00f2fe">Borahjyotirmoy030@gmail.com</tspan> // STATUS: READY_FOR_DEPLOYMENT
+  </text>
+  <text x="760" y="90" fill="#ff2a00" font-size="10" class="mono" letter-spacing="1">/// END_TRANSMISSION</text>
+</svg>

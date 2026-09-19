@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/header.svg" alt="Jyotirmoy Borah" width="100%" />
+<img src="./assets/hero.svg" alt="Jyotirmoy Borah" width="100%" />
 
 <br/>
 <br/>

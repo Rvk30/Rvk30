@@ -36,16 +36,15 @@
       font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
     }
     @keyframes pulse-dot {
-      0%, 100% { opacity: 0.85; transform: scale(1); }
-      50% { opacity: 1; transform: scale(1.15); filter: drop-shadow(0 0 3px #3fb950); }
+      0%, 100% { opacity: 0.6; }
+      50% { opacity: 1; }
     }
     @keyframes float-mascot {
       0%, 100% { transform: translateY(0px); }
       50% { transform: translateY(-4px); }
     }
     .status-dot {
-      transform-origin: 47px 32px;
-      animation: pulse-dot 2.5s ease-in-out infinite;
+      animation: pulse-dot 2s ease-in-out infinite;
     }
     .mascot-group {
       animation: float-mascot 4s ease-in-out infinite;
@@ -59,21 +58,21 @@
   <rect x="1" y="1" width="838" height="1.5" rx="1" fill="url(#topHighlight)"/>
 
   <!-- Status Indicator Badge -->
-  <g transform="translate(36, 22)">
+  <g transform="translate(36, 24)">
     <rect x="0" y="0" width="102" height="20" rx="10" fill="#161b22" stroke="#30363d" stroke-width="0.8"/>
-    <circle cx="11" cy="10" r="3" fill="#3fb950" filter="url(#dotGlow)" class="status-dot"/>
+    <circle cx="11" cy="10" r="3.5" fill="#3fb950" class="status-dot"/>
     <text x="21" y="13.5" fill="#7ee787" class="mono-text" font-size="9" font-weight="600" letter-spacing="1.2">AVAILABLE</text>
   </g>
 
   <!-- Developer Identity -->
   <!-- Name: Strongest visual element -->
-  <text x="36" y="78" fill="#f0f6fc" font-size="28" class="name-text">Jyotirmoy Borah</text>
+  <text x="36" y="80" fill="#f0f6fc" font-size="28" class="name-text">Jyotirmoy Borah</text>
 
   <!-- Tagline / Subtitle -->
-  <text x="36" y="104" fill="#8b949e" font-size="13.5" class="sub-text">CS student · developer</text>
+  <text x="36" y="106" fill="#8b949e" font-size="13.5" class="sub-text">CS student · developer</text>
 
   <!-- Bio / authentic philosophy -->
-  <g transform="translate(36, 126)">
+  <g transform="translate(36, 128)">
     <text x="0" y="0" fill="#7d8590" font-size="12" class="mono-text">
       <tspan fill="#58a6ff">&gt;</tspan> building things and figuring it out.
     </text>
@@ -81,9 +80,10 @@
 
   <!-- Subtle Developer Easter Egg: Pixel Art Companion / Dragon Silhouette -->
   <!-- Clean, minimalist, restrained geometry on the right -->
-  <g class="mascot-group" transform="translate(735, 45)" opacity="0.65">
-    <!-- Mini Terminal / Pixel Dragon Mascot Frame -->
-    <rect x="-8" y="-6" width="56" height="56" rx="8" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
+  <g transform="translate(735, 52)">
+    <g class="mascot-group" opacity="0.65">
+      <!-- Mini Terminal / Pixel Dragon Mascot Frame -->
+      <rect x="-8" y="-6" width="56" height="56" rx="8" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
     <!-- 8-bit companion silhouette -->
     <g fill="url(#dragonGrad)">
       <!-- Horns / Crest -->
@@ -109,6 +109,7 @@
     </g>
     <!-- Mascot Subtext -->
     <text x="20" y="44" text-anchor="middle" fill="#484f58" font-size="7.5" class="mono-text">COMPANION</text>
+  </g>
   </g>
 
   <!-- Bottom Hairline Detail -->

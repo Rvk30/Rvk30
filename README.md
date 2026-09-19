@@ -18,16 +18,16 @@
 ## ───┤ 🐉 DEVELOPER COMMAND MATRIX // ABOUT ME ├───────────────────────
 
 ```text
-┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
-│ [SYSTEM_ATTRIBUTES]                                                                                         │
-│                                                                                                             │
-│ ⚔️ OPERATOR        : Jyotirmoy Borah                                                                        │
-│ 🐉 CODENAME        : RVK30                                                                                  │
-│ 🛡️ ROLE            : Full-Stack Systems Architect & Automation Specialist                                   │
-│ ⚡ DOMAIN          : High-Throughput Crawlers • Distributed Backends • Spatial GIS • Modern Web UI        │
-│ 🌐 BASE NODE       : India (UTC+5:30)                                                                       │
-│ 📡 CORE STATUS     : 🟢 Ready for Mission Directives & High-Impact Engineering                              │
-└─────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────────────────────────────┐
+│ [SYSTEM_ATTRIBUTES]                                                        │
+│                                                                            │
+│ ⚔️ OPERATOR    : Jyotirmoy Borah                                            │
+│ 🐉 CODENAME    : RVK30                                                      │
+│ 🛡️ ROLE        : Full-Stack Systems Architect & Automation Specialist       │
+│ ⚡ DOMAIN      : High-Throughput Web Crawlers • Resilient Distributed APIS  │
+│ 🌐 BASE NODE   : India (UTC+5:30)                                           │
+│ 📡 CORE STATUS : 🟢 Available for Collaboration & Mission Directives        │
+└────────────────────────────────────────────────────────────────────────────┘
 ```
 
 <br/>
@@ -179,11 +179,11 @@ Audio DSP algorithms, high-velocity browser automation protocols, and production
 
 ```text
 [DRAGON_SKILL_TREE]
-┣━━ 🐉 DISTRIBUTED CRAWLERS & AUTOMATION : [███████████████████ ] 95%  (Playwright, SSE Streams, Pool Concurrency)
-┣━━ ⚡ BACKEND ARCHITECTURE & DATA ENGINES: [██████████████████  ] 90%  (Node.js, Express, PostgreSQL, Prisma, RLS)
-┣━━ 🛡️ FULL-STACK WEB & NEXT.JS 14/15    : [█████████████████   ] 88%  (Next.js App Router, React 19, TS, Tailwind)
-┣━━ ☁️ DEVOPS & CONTAINERIZATION         : [████████████████    ] 80%  (Docker, GitHub Actions, Vercel, CI/CD)
-┗━━ 📱 MOBILE & AUDIO DSP ENGINEERING    : [███████████████     ] 75%  (Kotlin Android, C++/Python Audio DSP)
+┣━━ 🐉 DISTRIBUTED CRAWLERS & AUTOMATION : [███████████████████ ] 95%
+┣━━ ⚡ BACKEND ARCHITECTURE & DATABASES   : [██████████████████  ] 90%
+┣━━ 🛡️ FULL-STACK WEB & NEXT.JS 14/15    : [█████████████████   ] 88%
+┣━━ ☁️ DEVOPS, DOCKER & CLOUD WORKFLOWS  : [████████████████    ] 80%
+┗━━ 📱 MOBILE UTILITIES & AUDIO DSP      : [███████████████     ] 75%
 ```
 
 <div align="center">
@@ -194,12 +194,11 @@ Audio DSP algorithms, high-velocity browser automation protocols, and production
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Rvk30&show_icons=true&theme=synthwave&hide_border=false&bg_color=07090e&title_color=00f2fe&text_color=94a3b8&icon_color=ff2a00&border_color=ff2a0040" alt="Rvk30 GitHub Stats" width="415" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rvk30&layout=compact&theme=synthwave&hide_border=false&bg_color=07090e&title_color=00f2fe&text_color=94a3b8&border_color=00f2fe40" alt="Rvk30 Top Languages" width="380" />
+<img src="./assets/github-telemetry.svg" alt="Rvk30 System Telemetry & Stack Spectrum" width="100%" />
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Rvk30&theme=synthwave&hide_border=false&background=07090e&border=ff2a0040&stroke=00f2fe&ring=ff2a00&fire=ff2a00&currStreakNum=00f2fe" alt="Rvk30 Streak Stats" width="800" />
+<img src="https://streak-stats.demolab.com?user=Rvk30&theme=synthwave&hide_border=false&background=07090e&border=ff2a0040&stroke=00f2fe&ring=ff2a00&fire=ff2a00&currStreakNum=00f2fe" alt="Rvk30 Streak Stats" width="100%" />
 
 </div>
 

@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 210" width="100%" height="210">
+  <defs>
+    <linearGradient id="panelBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07090e" />
+      <stop offset="50%" stop-color="#0c0e17" />
+      <stop offset="100%" stop-color="#06070b" />
+    </linearGradient>
+
+    <linearGradient id="hudLineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff2a00" />
+      <stop offset="50%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#00f2fe" />
+    </linearGradient>
+
+    <linearGradient id="tsGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3178c6" />
+      <stop offset="100%" stop-color="#00f2fe" />
+    </linearGradient>
+
+    <linearGradient id="jsGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f7df1e" />
+      <stop offset="100%" stop-color="#ff9900" />
+    </linearGradient>
+
+    <linearGradient id="pyGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3776ab" />
+      <stop offset="100%" stop-color="#4ade80" />
+    </linearGradient>
+
+    <linearGradient id="otherGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff2a00" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+
+    <filter id="hudGlow">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace; }
+    .display { font-family: 'Orbitron', 'Segoe UI', sans-serif; font-weight: 700; }
+  </style>
+
+  <!-- Card 1: Left HUD (Diagnostics & Metrics) -->
+  <g transform="translate(10, 10)">
+    <rect width="390" height="190" rx="8" fill="url(#panelBg)" stroke="#1e293b" stroke-width="1.2" />
+    <!-- Glowing Corner Accents -->
+    <path d="M 0 20 L 0 0 L 20 0" fill="none" stroke="#ff2a00" stroke-width="2.5" />
+    <path d="M 390 20 L 390 0 L 370 0" fill="none" stroke="#00f2fe" stroke-width="2.5" />
+    <path d="M 0 170 L 0 190 L 20 190" fill="none" stroke="#ff2a00" stroke-width="2.5" />
+    <path d="M 390 170 L 390 190 L 370 190" fill="none" stroke="#00f2fe" stroke-width="2.5" />
+
+    <!-- Card Header -->
+    <circle cx="22" cy="24" r="4" fill="#ff2a00" filter="url(#hudGlow)" />
+    <text x="34" y="28" fill="#ffffff" font-size="12" class="display" letter-spacing="1">SYSTEM TELEMETRY</text>
+    <text x="310" y="28" fill="#ff7a00" font-size="9" class="mono">LIVE // ONLINE</text>
+    <line x1="20" y1="38" x2="370" y2="38" stroke="#ff2a00" stroke-width="0.8" stroke-opacity="0.4" />
+
+    <!-- Metric Rows -->
+    <g transform="translate(20, 58)">
+      <!-- Row 1 -->
+      <text x="0" y="12" fill="#64748b" font-size="11" class="mono">PUBLIC REPOSITORIES</text>
+      <text x="348" y="12" fill="#00f2fe" font-size="13" class="display" text-anchor="end">10+</text>
+
+      <!-- Row 2 -->
+      <text x="0" y="36" fill="#64748b" font-size="11" class="mono">CORE MISSIONS BUILT</text>
+      <text x="348" y="36" fill="#ff2a00" font-size="13" class="display" text-anchor="end">06</text>
+
+      <!-- Row 3 -->
+      <text x="0" y="60" fill="#64748b" font-size="11" class="mono">PRIMARY ROLES</text>
+      <text x="348" y="60" fill="#f8fafc" font-size="11" class="mono" text-anchor="end">ARCHITECT / AUTOMATION</text>
+
+      <!-- Row 4 -->
+      <text x="0" y="84" fill="#64748b" font-size="11" class="mono">AUTOMATION TEST BED</text>
+      <text x="348" y="84" fill="#4ade80" font-size="11" class="mono" text-anchor="end">PLAYWRIGHT POOL</text>
+
+      <!-- Row 5 -->
+      <text x="0" y="108" fill="#64748b" font-size="11" class="mono">INFRASTRUCTURE HEALTH</text>
+      <text x="348" y="108" fill="#00ff66" font-size="11" class="mono" text-anchor="end">100% OPERATIONAL</text>
+    </g>
+  </g>
+
+  <!-- Card 2: Right HUD (Language & Stack Spectrum) -->
+  <g transform="translate(420, 10)">
+    <rect width="390" height="190" rx="8" fill="url(#panelBg)" stroke="#1e293b" stroke-width="1.2" />
+    <!-- Glowing Corner Accents -->
+    <path d="M 0 20 L 0 0 L 20 0" fill="none" stroke="#00f2fe" stroke-width="2.5" />
+    <path d="M 390 20 L 390 0 L 370 0" fill="none" stroke="#ff2a00" stroke-width="2.5" />
+    <path d="M 0 170 L 0 190 L 20 190" fill="none" stroke="#00f2fe" stroke-width="2.5" />
+    <path d="M 390 170 L 390 190 L 370 190" fill="none" stroke="#ff2a00" stroke-width="2.5" />
+
+    <!-- Card Header -->
+    <circle cx="22" cy="24" r="4" fill="#00f2fe" filter="url(#hudGlow)" />
+    <text x="34" y="28" fill="#ffffff" font-size="12" class="display" letter-spacing="1">STACK SPECTRUM</text>
+    <text x="290" y="28" fill="#00f2fe" font-size="9" class="mono">TOP_LANGUAGES</text>
+    <line x1="20" y1="38" x2="370" y2="38" stroke="#00f2fe" stroke-width="0.8" stroke-opacity="0.4" />
+
+    <!-- Language Progress Bars -->
+    <g transform="translate(20, 52)">
+      <!-- TypeScript -->
+      <text x="0" y="10" fill="#cbd5e1" font-size="10" class="mono">TypeScript</text>
+      <text x="350" y="10" fill="#38bdf8" font-size="10" class="mono" text-anchor="end">42%</text>
+      <rect x="0" y="14" width="350" height="6" rx="3" fill="#1e293b" />
+      <rect x="0" y="14" width="147" height="6" rx="3" fill="url(#tsGrad)" />
+
+      <!-- JavaScript -->
+      <text x="0" y="34" fill="#cbd5e1" font-size="10" class="mono">JavaScript</text>
+      <text x="350" y="34" fill="#fbbf24" font-size="10" class="mono" text-anchor="end">25%</text>
+      <rect x="0" y="38" width="350" height="6" rx="3" fill="#1e293b" />
+      <rect x="0" y="38" width="87" height="6" rx="3" fill="url(#jsGrad)" />
+
+      <!-- Python & Audio DSP -->
+      <text x="0" y="58" fill="#cbd5e1" font-size="10" class="mono">Python / DSP</text>
+      <text x="350" y="58" fill="#4ade80" font-size="10" class="mono" text-anchor="end">18%</text>
+      <rect x="0" y="62" width="350" height="6" rx="3" fill="#1e293b" />
+      <rect x="0" y="62" width="63" height="6" rx="3" fill="url(#pyGrad)" />
+
+      <!-- Kotlin & C++ -->
+      <text x="0" y="82" fill="#cbd5e1" font-size="10" class="mono">Kotlin / C++</text>
+      <text x="350" y="82" fill="#f43f5e" font-size="10" class="mono" text-anchor="end">15%</text>
+      <rect x="0" y="86" width="350" height="6" rx="3" fill="#1e293b" />
+      <rect x="0" y="86" width="52" height="6" rx="3" fill="url(#otherGrad)" />
+
+      <!-- Segmented Bar at bottom -->
+      <g transform="translate(0, 106)">
+        <rect x="0" y="0" width="147" height="4" fill="#3178c6" rx="1" />
+        <rect x="150" y="0" width="87" height="4" fill="#f7df1e" rx="1" />
+        <rect x="240" y="0" width="63" height="4" fill="#4ade80" rx="1" />
+        <rect x="306" y="0" width="44" height="4" fill="#ff2a00" rx="1" />
+      </g>
+    </g>
+  </g>
+</svg>

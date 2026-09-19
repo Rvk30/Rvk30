@@ -3,16 +3,19 @@
 <img src="./assets/header.svg" alt="Jyotirmoy Borah" width="100%" />
 
 <br/>
+<br/>
 
-[![GitHub](https://img.shields.io/badge/-Rvk30-181717?style=flat-square&logo=github)](https://github.com/Rvk30)
-[![Email](https://img.shields.io/badge/-Borahjyotirmoy030@gmail.com-181717?style=flat-square&logo=gmail)](mailto:Borahjyotirmoy030@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-181717?style=flat-square&logo=linkedin)](https://linkedin.com)
+<a href="https://github.com/Rvk30"><img src="./assets/social-github.svg" alt="GitHub" height="30" /></a>
+&nbsp;&nbsp;
+<a href="mailto:Borahjyotirmoy030@gmail.com"><img src="./assets/social-email.svg" alt="Email" height="30" /></a>
+&nbsp;&nbsp;
+<a href="https://linkedin.com"><img src="./assets/social-linkedin.svg" alt="LinkedIn" height="30" /></a>
 
 </div>
 
 <br/>
 
-I'm a CS student who likes building things to understand how they work. Interested in web development, backend systems, and DevOps. Currently exploring automation, containerized workflows, and whatever sounds interesting enough to stay up late for.
+I'm a CS student who likes building things to understand how they work. Interested in web development, backend systems, and DevOps. Currently exploring automation, containerized workflows, and software architecture.
 
 <br/>
 
@@ -36,13 +39,13 @@ tools        git · docker · linux
 **[jb-entre](https://github.com/Rvk30/jb-entre)** — EV charging station locator with interactive maps and booking UI.  
 `javascript` `react` `leaflet` `tailwind css`
 
-**[fake-store](https://github.com/Rvk30/fake-store)** — E-commerce app exploring Next.js App Router and Supabase Row-Level Security.  
+**[fake-store](https://github.com/Rvk30/fake-store)** — E-commerce store exploring Next.js App Router and Supabase Row-Level Security.  
 `typescript` `next.js` `supabase`
 
 **[ai-lead](https://github.com/Rvk30/ai-lead)** — Lead discovery pipeline with Docker Compose, PostgreSQL, and Redis.  
 `shell` `javascript` `docker` `postgresql`
 
-**[vtop-hack](https://github.com/Rvk30/vtop-hack)** — Android app for streamlining university portal access and timetable caching.  
+**[vtop-hack](https://github.com/Rvk30/vtop-hack)** — Android utility for university timetable caching and portal integration.  
 `kotlin` `android sdk`
 
 <br/>

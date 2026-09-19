@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 32" width="120" height="32">
+  <defs>
+    <linearGradient id="btnBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0e1319"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="119" height="31" rx="6" fill="url(#btnBg)" stroke="#30363d" stroke-width="1"/>
+  <!-- LinkedIn Icon -->
+  <g transform="translate(14, 8)" fill="#e6edf3">
+    <path d="M1.5 0C0.67 0 0 0.67 0 1.5C0 2.33 0.67 3 1.5 3C2.33 3 3 2.33 3 1.5C3 0.67 2.33 0 1.5 0ZM0.2 4.2H2.8V13.8H0.2V4.2ZM4.4 4.2H6.9V5.5H6.93C7.28 4.84 8.13 4.14 9.4 4.14C12.04 4.14 12.53 5.88 12.53 8.14V13.8H9.93V8.72C9.93 7.51 9.9 5.95 8.24 5.95C6.55 5.95 6.3 7.27 6.3 8.63V13.8H3.7L4.4 4.2Z"/>
+  </g>
+  <text x="35" y="20" fill="#e6edf3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12" font-weight="500" letter-spacing="0.2">LinkedIn</text>
+</svg>

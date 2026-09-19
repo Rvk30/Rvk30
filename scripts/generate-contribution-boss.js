@@ -212,6 +212,11 @@ function generateSVG(calendar, username) {
       <stop offset="0%" stop-color="#da3633" />
       <stop offset="100%" stop-color="#f85149" />
     </linearGradient>
+    <linearGradient id="topHighlight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.5" />
+      <stop offset="40%" stop-color="#58a6ff" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0" />
+    </linearGradient>
   </defs>
 
   <style>
@@ -231,6 +236,7 @@ function generateSVG(calendar, username) {
 
   <!-- Container Frame -->
   <rect x="1" y="1" width="838" height="308" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+  <rect x="1" y="1" width="838" height="1.5" rx="1" fill="url(#topHighlight)" />
 
   <!-- Top Header Bar -->
   <g class="hud-mono">

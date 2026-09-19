@@ -38,7 +38,7 @@
   <g class="hud-mono">
     <circle cx="26" cy="23" r="3.5" fill="#3fb950" />
     <text x="38" y="27" fill="#e6edf3" font-size="11" font-weight="600" letter-spacing="1">BATTLEFIELD // REAL CONTRIBUTION MATRIX</text>
-    <text x="805" y="27" text-anchor="end" fill="#7d8590" font-size="10">REAL COMMITS: <tspan fill="#3fb950" font-weight="700">52</tspan> | ACTIVE DAYS: <tspan fill="#e6edf3">15</tspan></text>
+    <text x="805" y="27" text-anchor="end" fill="#7d8590" font-size="10">REAL COMMITS: <tspan fill="#3fb950" font-weight="700">53</tspan> | ACTIVE DAYS: <tspan fill="#e6edf3">15</tspan></text>
   </g>
 
   <!-- Divider Line -->
@@ -73,9 +73,9 @@
       
       <!-- Boss HP Bar -->
       <rect x="0" y="21" width="220" height="8" rx="2" fill="#21262d" />
-      <rect x="0" y="21" width="70" height="8" rx="2" fill="url(#bGrad)" />
+      <rect x="0" y="21" width="68" height="8" rx="2" fill="url(#bGrad)" />
       
-      <text x="0" y="41" fill="#8b949e" class="hud-mono" font-size="9.5">HP 32%</text>
+      <text x="0" y="41" fill="#8b949e" class="hud-mono" font-size="9.5">HP 31%</text>
       <text x="220" y="41" text-anchor="end" fill="#8b949e" class="hud-mono" font-size="9.5">COUNTER: <tspan fill="#ff7b72">[MERGE CONFLICT]</tspan></text>
     </g>
   </g>
@@ -113,10 +113,10 @@
     <rect x="62" y="180" width="10" height="10" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.7"><title>2025-09-16: 0 contributions</title></rect>
     <rect x="62" y="194" width="10" height="10" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.7"><title>2025-09-17: 0 contributions</title></rect>
     <rect x="62" y="208" width="10" height="10" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.7"><title>2025-09-18: 0 contributions</title></rect>
-    <rect x="62" y="222" width="10" height="10" rx="2" fill="#39d353" stroke="#56d364" stroke-width="0.7" class="crit-cell"><title>2025-09-19: 3 contributions</title></rect>
+    <rect x="62" y="222" width="10" height="10" rx="2" fill="#006d32" stroke="#26a641" stroke-width="0.7" class="active-cell"><title>2025-09-19: 3 contributions</title></rect>
     <rect x="62" y="236" width="10" height="10" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.7"><title>2025-09-20: 0 contributions</title></rect>
-    <rect x="76" y="152" width="10" height="10" rx="2" fill="#26a641" stroke="#39d353" stroke-width="0.7" class="active-cell"><title>2025-09-21: 2 contributions</title></rect>
-    <rect x="76" y="166" width="10" height="10" rx="2" fill="#006d32" stroke="#26a641" stroke-width="0.7" class="active-cell"><title>2025-09-22: 1 contribution</title></rect>
+    <rect x="76" y="152" width="10" height="10" rx="2" fill="#006d32" stroke="#26a641" stroke-width="0.7" class="active-cell"><title>2025-09-21: 2 contributions</title></rect>
+    <rect x="76" y="166" width="10" height="10" rx="2" fill="#0e4429" stroke="#006d32" stroke-width="0.7" class="active-cell"><title>2025-09-22: 1 contribution</title></rect>
     <rect x="76" y="180" width="10" height="10" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.7"><title>2025-09-23: 0 contributions</title></rect>
     <rect x="76" y="194" width="10" height="10" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.7"><title>2025-09-24: 0 contributions</title></rect>
     <rect x="76" y="208" width="10" height="10" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.7"><title>2025-09-25: 0 contributions</title></rect>
@@ -316,9 +316,9 @@
     <rect x="468" y="180" width="10" height="10" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.7"><title>2026-04-07: 0 contributions</title></rect>
     <rect x="468" y="194" width="10" height="10" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.7"><title>2026-04-08: 0 contributions</title></rect>
     <rect x="468" y="208" width="10" height="10" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.7"><title>2026-04-09: 0 contributions</title></rect>
-    <rect x="468" y="222" width="10" height="10" rx="2" fill="#39d353" stroke="#56d364" stroke-width="0.7" class="crit-cell"><title>2026-04-10: 3 contributions</title></rect>
+    <rect x="468" y="222" width="10" height="10" rx="2" fill="#006d32" stroke="#26a641" stroke-width="0.7" class="active-cell"><title>2026-04-10: 3 contributions</title></rect>
     <rect x="468" y="236" width="10" height="10" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.7"><title>2026-04-11: 0 contributions</title></rect>
-    <rect x="482" y="152" width="10" height="10" rx="2" fill="#006d32" stroke="#26a641" stroke-width="0.7" class="active-cell"><title>2026-04-12: 1 contribution</title></rect>
+    <rect x="482" y="152" width="10" height="10" rx="2" fill="#0e4429" stroke="#006d32" stroke-width="0.7" class="active-cell"><title>2026-04-12: 1 contribution</title></rect>
     <rect x="482" y="166" width="10" height="10" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.7"><title>2026-04-13: 0 contributions</title></rect>
     <rect x="482" y="180" width="10" height="10" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.7"><title>2026-04-14: 0 contributions</title></rect>
     <rect x="482" y="194" width="10" height="10" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.7"><title>2026-04-15: 0 contributions</title></rect>
@@ -357,22 +357,22 @@
     <rect x="552" y="166" width="10" height="10" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.7"><title>2026-05-18: 0 contributions</title></rect>
     <rect x="552" y="180" width="10" height="10" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.7"><title>2026-05-19: 0 contributions</title></rect>
     <rect x="552" y="194" width="10" height="10" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.7"><title>2026-05-20: 0 contributions</title></rect>
-    <rect x="552" y="208" width="10" height="10" rx="2" fill="#006d32" stroke="#26a641" stroke-width="0.7" class="active-cell"><title>2026-05-21: 1 contribution</title></rect>
+    <rect x="552" y="208" width="10" height="10" rx="2" fill="#0e4429" stroke="#006d32" stroke-width="0.7" class="active-cell"><title>2026-05-21: 1 contribution</title></rect>
     <rect x="552" y="222" width="10" height="10" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.7"><title>2026-05-22: 0 contributions</title></rect>
     <rect x="552" y="236" width="10" height="10" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.7"><title>2026-05-23: 0 contributions</title></rect>
     <rect x="566" y="152" width="10" height="10" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.7"><title>2026-05-24: 0 contributions</title></rect>
-    <rect x="566" y="166" width="10" height="10" rx="2" fill="#006d32" stroke="#26a641" stroke-width="0.7" class="active-cell"><title>2026-05-25: 1 contribution</title></rect>
+    <rect x="566" y="166" width="10" height="10" rx="2" fill="#0e4429" stroke="#006d32" stroke-width="0.7" class="active-cell"><title>2026-05-25: 1 contribution</title></rect>
     <rect x="566" y="180" width="10" height="10" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.7"><title>2026-05-26: 0 contributions</title></rect>
-    <rect x="566" y="194" width="10" height="10" rx="2" fill="#006d32" stroke="#26a641" stroke-width="0.7" class="active-cell"><title>2026-05-27: 1 contribution</title></rect>
+    <rect x="566" y="194" width="10" height="10" rx="2" fill="#0e4429" stroke="#006d32" stroke-width="0.7" class="active-cell"><title>2026-05-27: 1 contribution</title></rect>
     <rect x="566" y="208" width="10" height="10" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.7"><title>2026-05-28: 0 contributions</title></rect>
     <rect x="566" y="222" width="10" height="10" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.7"><title>2026-05-29: 0 contributions</title></rect>
     <rect x="566" y="236" width="10" height="10" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.7"><title>2026-05-30: 0 contributions</title></rect>
     <rect x="580" y="152" width="10" height="10" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.7"><title>2026-05-31: 0 contributions</title></rect>
-    <rect x="580" y="166" width="10" height="10" rx="2" fill="#39d353" stroke="#56d364" stroke-width="0.7" class="crit-cell"><title>2026-06-01: 3 contributions</title></rect>
+    <rect x="580" y="166" width="10" height="10" rx="2" fill="#006d32" stroke="#26a641" stroke-width="0.7" class="active-cell"><title>2026-06-01: 3 contributions</title></rect>
     <rect x="580" y="180" width="10" height="10" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.7"><title>2026-06-02: 0 contributions</title></rect>
     <rect x="580" y="194" width="10" height="10" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.7"><title>2026-06-03: 0 contributions</title></rect>
     <rect x="580" y="208" width="10" height="10" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.7"><title>2026-06-04: 0 contributions</title></rect>
-    <rect x="580" y="222" width="10" height="10" rx="2" fill="#006d32" stroke="#26a641" stroke-width="0.7" class="active-cell"><title>2026-06-05: 1 contribution</title></rect>
+    <rect x="580" y="222" width="10" height="10" rx="2" fill="#0e4429" stroke="#006d32" stroke-width="0.7" class="active-cell"><title>2026-06-05: 1 contribution</title></rect>
     <rect x="580" y="236" width="10" height="10" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.7"><title>2026-06-06: 0 contributions</title></rect>
     <rect x="594" y="152" width="10" height="10" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.7"><title>2026-06-07: 0 contributions</title></rect>
     <rect x="594" y="166" width="10" height="10" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.7"><title>2026-06-08: 0 contributions</title></rect>
@@ -464,7 +464,7 @@
     <rect x="762" y="194" width="10" height="10" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.7"><title>2026-09-02: 0 contributions</title></rect>
     <rect x="762" y="208" width="10" height="10" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.7"><title>2026-09-03: 0 contributions</title></rect>
     <rect x="762" y="222" width="10" height="10" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.7"><title>2026-09-04: 0 contributions</title></rect>
-    <rect x="762" y="236" width="10" height="10" rx="2" fill="#006d32" stroke="#26a641" stroke-width="0.7" class="active-cell"><title>2026-09-05: 1 contribution</title></rect>
+    <rect x="762" y="236" width="10" height="10" rx="2" fill="#0e4429" stroke="#006d32" stroke-width="0.7" class="active-cell"><title>2026-09-05: 1 contribution</title></rect>
     <rect x="776" y="152" width="10" height="10" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.7"><title>2026-09-06: 0 contributions</title></rect>
     <rect x="776" y="166" width="10" height="10" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.7"><title>2026-09-07: 0 contributions</title></rect>
     <rect x="776" y="180" width="10" height="10" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.7"><title>2026-09-08: 0 contributions</title></rect>
@@ -478,7 +478,7 @@
     <rect x="790" y="194" width="10" height="10" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.7"><title>2026-09-16: 0 contributions</title></rect>
     <rect x="790" y="208" width="10" height="10" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.7"><title>2026-09-17: 0 contributions</title></rect>
     <rect x="790" y="222" width="10" height="10" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.7"><title>2026-09-18: 0 contributions</title></rect>
-    <rect x="790" y="236" width="10" height="10" rx="2" fill="#39d353" stroke="#56d364" stroke-width="0.7" class="crit-cell"><title>2026-09-19: 5 contributions</title></rect>
+    <rect x="790" y="236" width="10" height="10" rx="2" fill="#39d353" stroke="#56d364" stroke-width="0.7" class="crit-cell"><title>2026-09-19: 6 contributions</title></rect>
   </g>
 
   <!-- Divider Line -->
@@ -487,7 +487,7 @@
   <!-- FOOTER / COMBAT LOG & REAL DATA FOOTNOTE -->
   <g class="hud-mono">
     <text x="35" y="283" fill="#8b949e" font-size="9.5">
-      <tspan fill="#3fb950">●</tspan> ENERGY: REAL GITHUB CONTRIBUTIONS · <tspan fill="#e6edf3">52 COMMITS</tspan> CHARGING ARENA CELLS
+      <tspan fill="#3fb950">●</tspan> ENERGY: REAL GITHUB CONTRIBUTIONS · <tspan fill="#e6edf3">53 COMMITS</tspan> CHARGING ARENA CELLS
     </text>
 
     <!-- Legend -->
